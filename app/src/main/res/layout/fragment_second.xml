@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/relat_"
+    android:background="@color/qianlanse"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的好友"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+</RelativeLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relat_"
+        android:id="@+id/springview_indexfragment_id">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relat_"
+            android:id="@+id/listview_id_">
+
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

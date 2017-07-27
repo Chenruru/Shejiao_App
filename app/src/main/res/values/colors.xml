@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="qianhuise">#B7B7B7</color>
+    <color name="qianlanse">#6BC8F3</color>
+
+
+    <color name="black">#000000</color>
+    <color name="chaLv">#71C3C8</color>
+
+    <color name="whitecolor">#FFFFFF</color>
+
+    <color name="main_color">#71C3C8</color>
+<color name="color">#F0F0F0</color>
+
+    <color name="main_bg_color">#F3F3F3</color>
+
+    <color name="read">#D3191C</color>
+
+
+
+
+    <color name="tab_bg">#FFFFFF</color>
+
+    <color name="tab_normal_textcolor">#373737</color>
+    <color name="tab_selected_textcolor">#71C3C8</color>
+
+
+    <color name="color_line_border">#C7C7C7</color>
+    <color name="color_black">#000000</color>
+    <color name="erji_color">#AFAFAF</color>
+
+    <color name="colorBlack_Three">#333333</color>
+    <color name="bg_text_color">#ffffff</color>
+    <color name="hint_text_color">#b7b6b6</color>
+    <color name="tabber">#71C3C8</color>
+    <color name="toast_color">#353535</color>
+    <color name="gray">#525252</color>
+    <color name="color_divider">#9b9a9a</color>
+    <color name="background">#edeff4</color>
+    <color name="global_bg">#eeeff3</color>
+    <color name="line_color">#dadada</color>
+    <color name="white">#ffffffff</color>
+    <color name="grays">#AFAFAF</color>
+    <color name="yellow">#F99503</color>
+    <color name="gray_color">#ffe8ecef</color>
+    <color name="bg_sort_color">#EDEDED</color>
+    <color name="chat_background">#f7f9fe</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+</resources>

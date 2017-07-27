@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/liearlayout_frit"
+        android:background="@color/chaLv"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/new_btn_back"
+            android:layout_marginTop="7dp"
+            android:id="@+id/image_id_fan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="附近的人"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="19dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pub_title_rightbtn"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+
+            android:gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pub_title_leftbtn"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+
+            android:visibility="gone"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <com.liaoinstan.springview.widget.SpringView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/springview_indexfragment">
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recycleview_indexfragment"
+   > </android.support.v7.widget.RecyclerView>
+
+</com.liaoinstan.springview.widget.SpringView>
+</LinearLayout>

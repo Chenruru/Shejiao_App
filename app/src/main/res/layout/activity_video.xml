@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.hyphenate.media.EMCallSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surface_big"
+        />
+    <com.hyphenate.media.EMCallSurfaceView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/surface_small"
+        />
+</FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/tel_activity_hint"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="60dp"
+  android:layout_marginBottom="40dp"
+    android:src="@mipmap/ic_tel_answer"
+    android:id="@+id/tel_activity_accept"
+    android:layout_alignParentBottom="true"
+    />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tel_activity_handup"
+    android:src="@mipmap/ic_tel_ring_off"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="40dp"
+    android:layout_marginLeft="155dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tel_activity_disaccept"
+        android:layout_alignParentBottom="true"
+       android:src="@mipmap/ic_tel_ring_off"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="270dp"/>
+</RelativeLayout>

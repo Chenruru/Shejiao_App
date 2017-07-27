@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_checked="false" android:drawable="@mipmap/radio_men_default_bg"></item>
+<item android:state_checked="true" android:drawable="@mipmap/radio_men_focused_bg"></item>
+
+</selector>

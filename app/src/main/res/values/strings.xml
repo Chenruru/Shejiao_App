@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">有缘网</string>
+    <string name="baocun">保存</string>
+    <string name="login">登录</string>
+    <string name="miaoshu">自我描述</string>
+    <string name="wangcheng">拍照</string>
+    <string name="tab_home_text">寻缘</string>
+    <string name="tab_discover_text">信息</string>
+    <string name="tab_feed_text">动态</string>
+</resources>

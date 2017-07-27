@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_touxiang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="一张清晰的头像可以吸引更多异性"
+        android:layout_marginTop="25dp"
+        android:textSize="17dp"
+        android:id="@+id/text2"
+        android:layout_below="@+id/photo_circle_image"/>
+
+<Button
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text2"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:drawableLeft="@mipmap/keai"
+    android:text="立即上传"
+    android:id="@+id/upload_photo_camera"
+    android:background="@drawable/round_bg"
+    android:textColor="#fff"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:src="@mipmap/upload_img_add"
+        android:id="@+id/photo_circle_image"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_photo_camera"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@mipmap/kafei"
+        android:text="@string/wangcheng"
+        android:id="@+id/upload_photo_localphoto"
+        android:background="@drawable/round_bg"
+        android:textColor="#fff"/>
+
+</RelativeLayout>

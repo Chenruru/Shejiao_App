@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6BC8F3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/new_btn_back"
+            android:layout_marginTop="7dp"
+            android:id="@+id/image_id"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="26dp"
+        android:text="输入你的手机号"
+        android:textSize="22sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机号仅用于登录和保护状态"
+        android:gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/edittext_shoujihao_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="请输入手机号"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="11"
+            android:theme="@style/MyEditText" />
+
+        <!--<Button-->
+            <!--android:id="@+id/zhu_ce_delete"-->
+            <!--android:background="@drawable/dialog_delete"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_alignRight="@+id/zhu_ce_phone"-->
+            <!--android:layout_alignEnd="@+id/zhu_ce_phone" />-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/edittext_yanzhengma_id"
+            android:inputType="number"
+            android:maxLength="4"
+            android:imeOptions="actionDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="请输入验证码"
+            android:theme="@style/MyEditText"
+            />
+        <Button
+            android:id="@+id/zhu_ce_numble"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:text="获取验证码"
+            android:textColor="#fff"
+            android:background="@drawable/round_2"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignRight="@+id/edittext_yanzhengma_id"
+            android:layout_alignEnd="@+id/edittext_yanzhengma_id"
+            android:layout_marginEnd="16dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_id_yanzheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="确定"
+        android:textColor="#fff"
+        android:background="@drawable/round_2"/>
+    />
+</LinearLayout>

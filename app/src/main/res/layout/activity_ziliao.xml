@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ziliao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview_id"
+
+
+      >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/liearlayout_frit"
+            android:layout_below="@+id/tolbar_id"
+
+            >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/c"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageview_xiangqing"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/new_btn_back"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imageview_fanhui_"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="高贵的银耳汤"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/text_name_id"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="43dp"
+        android:layout_alignBottom="@+id/imageview_xiangqing"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24"
+        android:textSize="17dp"
+        android:textColor="#fff"
+        android:id="@+id/text_age_id"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignBottom="@+id/imageview_xiangqing"
+        android:layout_alignParentStart="true" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="北京市——市区"
+    android:textSize="17dp"
+    android:textColor="#fff"
+    android:layout_marginLeft="80dp"
+    android:id="@+id/text_city_id"
+    android:layout_marginBottom="10dp"
+    android:layout_alignBottom="@+id/imageview_xiangqing"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摩羯座"
+        android:textSize="17dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="270dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@+id/imageview_xiangqing"
+        />
+    <View
+
+        android:layout_below="@+id/text_city_id"
+        android:layout_width="match_parent"
+        android:layout_marginTop="90dp"
+        android:layout_height="2dp"
+        android:id="@+id/view_id"
+        android:background="#E8E8E8"
+    ></View>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/c"
+        android:layout_below="@+id/imageview_xiangqing"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:id="@+id/imageView_id_" />
+
+
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/view_id"
+    android:layout_marginTop="15dp"
+    android:id="@+id/recyclerview_id"
+    >
+</android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/recyclerview_id"
+            android:layout_marginTop="10dp"
+            android:text="上网"
+            android:id="@+id/btn_sw"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round1"
+            />  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/recyclerview_id"
+        android:layout_marginTop="10dp"
+        android:text="孝顺"
+       android:layout_marginLeft="120dp"
+        android:background="@drawable/round2"
+        />
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="打招呼"
+        android:id="@+id/btn_id_"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/round_2"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="发消息"
+        android:id="@+id/btn_id_2"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/round_2"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

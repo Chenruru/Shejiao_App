@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_denglu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6BC8F3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/new_btn_back"
+            android:layout_marginTop="7dp"
+            android:id="@+id/image_id_"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="注册"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_zhuce"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户登录"
+        android:layout_marginTop="70dp"
+        android:textSize="25sp"
+        android:id="@+id/text_id"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_id"
+        android:layout_marginTop="60dp"
+        android:id="@+id/linear_id"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/MyEditText"
+            android:layout_marginLeft="30dp"
+            android:inputType="number"
+            android:maxLength="11"
+            android:layout_marginRight="40dp"
+            android:id="@+id/edittext_shoujihao_id"
+            android:hint="手机号/邮箱"/>
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_marginRight="40dp"
+            android:theme="@style/MyEditText"
+            android:id="@+id/edittext_mima_id"
+            android:hint="密码"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="#ffff"
+            android:id="@+id/btn_denglu"
+            android:background="@drawable/round_2"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="310dp"
+        android:src="@mipmap/space_center_look_me_bg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机号快捷登录"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="#B7B7B7"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linear_id"/>
+
+
+
+</RelativeLayout>

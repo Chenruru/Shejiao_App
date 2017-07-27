@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nicheng"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/reati_liear"
+
+    android:background="@color/qianlanse">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/new_btn_back"
+        android:id="@+id/image_id_fan"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/line1_id"
+        android:layout_below="@+id/reati_liear"
+        android:orientation="horizontal">
+<TextView
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="22dp"
+    android:text="昵称"/>
+
+        <EditText
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入昵称"
+            android:theme="@style/MyEditText"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:freezesText="true"
+            android:id="@+id/edittext_nicheng"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/line2_id"
+        android:layout_below="@+id/line1_id"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="密码"/>
+
+        <EditText
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:theme="@style/MyEditText"
+            android:hint="请输入密码"
+            android:freezesText="true"
+            android:password="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittext_password"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/line3_id"
+        android:layout_below="@+id/line2_id"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="性别："/>
+
+        <TextView
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_sex"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:hint="请输入性别"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/line4_id"
+        android:layout_below="@+id/line3_id"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="年龄："/>
+
+        <TextView
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_age"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:hint="请输入年龄"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/line5_id"
+        android:layout_below="@+id/line4_id"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="所在城市："/>
+
+        <TextView
+            android:layout_weight="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_city"
+
+            android:hint="输入城市"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:layout_marginTop="7dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/line6_id"
+        android:layout_below="@+id/line5_id"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="@string/miaoshu"/>
+
+        <EditText
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入昵称"
+            android:theme="@style/MyEditText"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:freezesText="true"
+            android:id="@+id/text_jianjie"/>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:textColor="#ffff"
+        android:id="@+id/btn_next"
+        android:background="@drawable/round_corner_bg"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@+id/line6_id"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
